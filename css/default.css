@@ -82,17 +82,26 @@ header .container .nav_bar ul li a {
     color: #fff;
 }
 
-main {
-    padding-top: 138px;
+header .container .nav_bar ul li a:hover {
+    color: #ffcf00;
+    transition: color 0.3s linear;
+}
+
+header .container .nav_bar ul li .nav_bar_sns {
+    font-size: 30px;
 }
 
 footer {
-    padding: 10px 0 40px;
+    padding: 60px 0 70px;
     background-color: #1c1c1c;
     border-top: solid 1px #e4e8eb;
 }
 
-footer .footer_corp_info .footer_sns_link,
+footer .footer_corp_info .footer_sns_box {
+    margin: 20px 0;
+}
+
+footer .footer_corp_info i,
 footer .footer_corp_info p,
 footer .footer_corp_info span {
     display: flex;
@@ -101,12 +110,21 @@ footer .footer_corp_info span {
     align-items: center;
 }
 
-footer .footer_corp_info .footer_sns_link {
-    padding: 20px 0;
+footer .footer_corp_info i {
+    font-size: 22px;
+    color: #fff;
 }
 
-footer .footer_corp_info p,
 footer .footer_corp_info span {
     font-size: 13px;
     color: #fff;
+}
+
+footer .footer_corp_info p {
+    font-size: 13px;
+    color: #ccc;
+}
+
+footer .footer_corp_info p {
+    margin-top: 5px;
 }

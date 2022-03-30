@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../css/default.css" />
         <link rel="stylesheet" href="../css/home.css" />
+        <script
+            src="https://kit.fontawesome.com/33488c9d98.js"
+            crossorigin="anonymous"
+        ></script>
         <title>Home</title>
     </head>
     <body>
@@ -27,35 +31,65 @@
                         <li><a href="./contact.html">CONTACT</a></li>
                         <li>
                             <a
+                                class="nav_bar_sns"
                                 href="https://www.instagram.com/linkboxcorp/"
                                 target="_blank"
-                                ><img
-                                    src="https:/via.placeholder.com/30"
-                                    alt="instagram link"
-                            /></a>
+                            >
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
 
-        <main role="main" style="background-color: yellow; height: 3000px">
-            <span style="font-size: 50px; font-weight: 700">Home</span>
+        <main id="home-main" role="main">
+            <div class="container">
+                <div class="home_main_content">
+                    <!-- <h2>Major works</h2> -->
+                    <div class="major_works_wrap">
+                        <div class="video_area">
+                            <iframe
+                                width="950"
+                                height="534"
+                                src="https://www.youtube.com/embed/WKYtBNWnO0g"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+                        <div class="btn_wrap">
+                            <button id="btn-left">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <button id="btn-right">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn_more_wrap">
+                    <a href="./work.html">
+                        <button class="btn_more" type="button">
+                            <span>more</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
         </main>
 
         <footer>
             <div class="footer_corp_info">
-                <a
-                    href="https://www.instagram.com/linkboxcorp/"
-                    target="_blank"
-                >
-                    <i class="footer_sns_link">
-                        <img
-                            src="https:/via.placeholder.com/21"
-                            alt="instagram logo"
-                        />
-                    </i>
-                </a>
+                <div class="footer_sns_box">
+                    <a
+                        href="https://www.instagram.com/linkboxcorp/"
+                        target="_blank"
+                    >
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
 
                 <span><strong>(주)링크박스</strong></span>
                 <p>서울특별시 마포구 성미산로20, B1</p>

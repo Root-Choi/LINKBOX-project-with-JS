@@ -1,0 +1,110 @@
+#home-main {
+    padding-top: 138px;
+    background-color: #1c1c1c;
+}
+
+#home-main .home_main_content {
+    padding-top: 15px;
+}
+
+#home-main .home_main_content h2 {
+    color: #fff;
+    font-size: 40px;
+}
+
+#home-main .home_main_content .major_works_wrap {
+    position: relative;
+    margin-top: 30px;
+}
+
+#home-main .home_main_content .major_works_wrap .video_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-main .home_main_content .major_works_wrap .video_area iframe {
+    box-shadow: 0 0 5px 5px rgb(228, 232, 235);
+}
+
+#home-main .home_main_content .major_works_wrap .btn_wrap {
+}
+
+#home-main .home_main_content .major_works_wrap .btn_wrap button {
+    background-color: #1c1c1c;
+    cursor: pointer;
+}
+
+#home-main .home_main_content .major_works_wrap .btn_wrap #btn-left {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+
+    transform: translateY(-50%);
+}
+
+#home-main .home_main_content .major_works_wrap .btn_wrap #btn-left:hover i {
+    color: #e4e8eb;
+}
+
+#home-main .home_main_content .major_works_wrap .btn_wrap #btn-left:active i {
+    transform: scale(0.87);
+}
+
+#home-main .home_main_content .major_works_wrap .btn_wrap #btn-right {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+
+    transform: translateY(-50%);
+}
+
+#home-main .home_main_content .major_works_wrap .btn_wrap #btn-right:hover i {
+    color: #e4e8eb;
+}
+
+#home-main .home_main_content .major_works_wrap .btn_wrap #btn-right:active i {
+    transform: scale(0.87);
+}
+
+#home-main .home_main_content .major_works_wrap .btn_wrap button i {
+    color: rgba(228, 232, 235, 0.5);
+    font-size: 25px;
+}
+
+#home-main .btn_more_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 120px 0 80px;
+}
+
+#home-main .btn_more_wrap a {
+    display: block;
+}
+
+#home-main .btn_more_wrap a .btn_more {
+    width: 108px;
+    height: 48px;
+    background-color: #383838;
+
+    border-radius: 3px;
+
+    transition: all 0.2s linear;
+
+    cursor: pointer;
+}
+
+#home-main .btn_more_wrap a .btn_more span {
+    color: #fff;
+    font-size: 15px;
+}
+
+#home-main .btn_more_wrap a .btn_more:hover {
+    background-color: #000;
+}
+
+#home-main .btn_more_wrap a .btn_more:hover span {
+    color: #fdaa0f;
+}
