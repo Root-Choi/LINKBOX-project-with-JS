@@ -1,0 +1,137 @@
+#about-main {
+    padding-top: 138px;
+    background-color: #1c1c1c;
+}
+
+#about-main .container {
+    margin-top: 40px;
+}
+
+#about-main h2 {
+    color: #e4e8eb;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* about section */
+#about-main .section_about {
+    position: relative;
+}
+
+#about-main .section_about .about_wrap {
+    position: relative;
+    height: 1310px;
+}
+
+#about-main .section_about .about_wrap .about_detail_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#about-main .section_about .about_wrap .about_detail_bg img {
+    width: 1120px;
+}
+
+#about-main .section_about .about_wrap .about_detail_img_1 {
+    position: absolute;
+    top: 0;
+    right: 110px;
+}
+
+#about-main .section_about .about_wrap .about_detail_img_1 img {
+    width: 324px;
+}
+
+#about-main .section_about .about_wrap .about_detail_img_2 {
+    position: absolute;
+    top: 160px;
+    left: 0;
+}
+
+#about-main .section_about .about_wrap .about_detail_img_2 img {
+    width: 535px;
+}
+
+#about-main .section_about .about_wrap .about_detail_img_3 {
+    position: absolute;
+    top: 935px;
+    left: 0;
+}
+
+#about-main .section_about .about_wrap .about_detail_img_3 img {
+    width: 1120px;
+}
+
+#about-main .section_about .about_wrap .about_detail_txt_1 {
+    position: absolute;
+    top: 493px;
+    right: 0;
+
+    width: 534px;
+    height: 298px;
+    background-color: #1c1c1c;
+
+    border: solid 3px #e4e8eb;
+}
+
+#about-main .section_about .about_wrap .about_detail_txt_2 {
+    position: absolute;
+    top: 630px;
+    left: 0;
+
+    width: 488px;
+    height: 260px;
+    background-color: #1c1c1c;
+
+    border: solid 3px #e4e8eb;
+}
+
+#about-main .section_about .about_wrap .about_txt p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #e4e8eb;
+}
+
+#about-main .section_about .about_wrap .about_txt p span {
+    color: #d8a948;
+}
+
+/* clients section */
+#about-main .section_clients {
+    margin: 200px 0 160px;
+}
+
+#about-main .section_clients .clients_wrap {
+    margin-top: 50px;
+}
+
+#about-main .section_clients .clients_wrap table {
+    /* border-spacing: 32px; */
+}
+
+#about-main .section_clients .clients_wrap table tbody tr td {
+    padding-right: 29.2px;
+    padding-bottom: 29.2px;
+}
+
+#about-main .section_clients .clients_wrap table tbody tr:last-child td {
+    padding-bottom: 0;
+}
+
+#about-main .section_clients .clients_wrap table tbody tr td:last-child {
+    padding-right: 0;
+}
+
+#about-main .section_clients .clients_wrap table tbody tr td img {
+    width: 160px;
+}
