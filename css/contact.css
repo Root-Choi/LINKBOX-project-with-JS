@@ -1,0 +1,144 @@
+#contact-main {
+    background-color: #1c1c1c;
+}
+
+#contact-main .about_main_top {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+/* section_contact */
+#contact-main .about_main_top .section_contact {
+    float: left;
+    width: 50%;
+    height: 420px;
+}
+
+#contact-main .about_main_top .section_contact .contact_info_lists {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+}
+
+#contact-main .about_main_top .section_contact .contact_info_lists li {
+    width: 100%;
+    height: 64px;
+
+    line-height: 32px;
+}
+
+#contact-main .about_main_top .section_contact .contact_info_lists li h3 {
+    font-size: 22px;
+    color: #d8a948;
+}
+
+#contact-main .about_main_top .section_contact .contact_info_lists li p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ccc;
+}
+
+/* section_submit */
+#contact-main .about_main_top .section_submit {
+    float: right;
+    width: 50%;
+    height: 420px;
+}
+
+#contact-main .about_main_top .section_submit #form-submit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+}
+
+#contact-main .about_main_top .section_submit #form-submit ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+#contact-main .about_main_top .section_submit #form-submit ul li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+#contact-main .about_main_top .section_submit #form-submit ul .form_list_name,
+#contact-main .about_main_top .section_submit #form-submit ul .form_list_email {
+    height: 68px;
+}
+
+#contact-main .about_main_top .section_submit #form-submit ul .form_list_msg {
+    height: 184px;
+}
+
+#contact-main .about_main_top .section_submit #form-submit ul li label {
+    margin-bottom: 10px;
+
+    font-size: 20px;
+    font-weight: 400;
+    color: #bbb;
+}
+
+#contact-main
+    .about_main_top
+    .section_submit
+    #form-submit
+    ul
+    li
+    .input_control {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+}
+
+#contact-main
+    .about_main_top
+    .section_submit
+    #form-submit
+    ul
+    .form_list_name
+    input,
+#contact-main
+    .about_main_top
+    .section_submit
+    #form-submit
+    ul
+    .form_list_email
+    input {
+    width: 100%;
+    height: 34px;
+}
+
+#contact-main
+    .about_main_top
+    .section_submit
+    #form-submit
+    ul
+    .form_list_msg
+    textarea {
+    width: 100%;
+    height: 150px;
+
+    font-size: 16px;
+    letter-spacing: normal;
+    white-space: pre-wrap;
+}
+
+#contact-main .about_main_top .section_submit #form-submit .btn_submit_wrap {
+    margin: 0 auto;
+}

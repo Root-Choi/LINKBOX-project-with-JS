@@ -80,11 +80,11 @@
     margin: 120px 0 80px;
 }
 
-#home-main .btn_more_wrap a {
+#home-main .btn_wrap a {
     display: block;
 }
 
-#home-main .btn_more_wrap a .btn_more {
+/* #home-main .btn_wrap a .btn {
     width: 108px;
     height: 48px;
     background-color: #383838;
@@ -96,15 +96,15 @@
     cursor: pointer;
 }
 
-#home-main .btn_more_wrap a .btn_more span {
+#home-main .btn_wrap a .btn span {
     color: #fff;
     font-size: 15px;
 }
 
-#home-main .btn_more_wrap a .btn_more:hover {
+#home-main .btn_wrap a .btn:hover {
     background-color: #000;
 }
 
-#home-main .btn_more_wrap a .btn_more:hover span {
+#home-main .btn_wrap a .btn:hover span {
     color: #fdaa0f;
-}
+} */

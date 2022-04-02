@@ -41,6 +41,31 @@ textarea {
     margin: 0 auto;
 }
 
+.btn_wrap .btn {
+    width: 108px;
+    height: 48px;
+    background-color: #383838;
+
+    border-radius: 5px;
+
+    transition: all 0.2s linear;
+
+    cursor: pointer;
+}
+
+.btn_wrap .btn span {
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn_wrap .btn:hover {
+    background-color: #000;
+}
+
+.btn_wrap .btn:hover span {
+    color: #fdaa0f;
+}
+
 header {
     position: fixed;
     left: 0;
@@ -100,7 +125,8 @@ main .container {
     margin-top: 40px;
 }
 
-main section h2 {
+main section h2,
+#contact-main h2 {
     color: #e4e8eb;
     font-size: 30px;
     text-align: center;

@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../css/default.css" />
+        <link rel="stylesheet" href="/css/contact.css" />
         <script
             src="https://kit.fontawesome.com/33488c9d98.js"
             crossorigin="anonymous"
@@ -46,8 +47,76 @@
             </div>
         </header>
 
-        <main role="main" style="background-color: yellow; height: 3000px">
-            <span style="font-size: 50px; font-weight: 700">Contact</span>
+        <main id="contact-main" role="main" style="height: 2000px">
+            <div class="container">
+                <h2>Contact</h2>
+
+                <div class="about_main_top">
+                    <section class="section_contact">
+                        <ul class="contact_info_lists">
+                            <li class="phone_num_wrap">
+                                <h3>연락처</h3>
+                                <p>010-7167-9067</p>
+                            </li>
+                            <li class="location_wrap">
+                                <h3>주소</h3>
+                                <p>서울특별시 마포구 성미산로 20, B1</p>
+                            </li>
+                            <li class="email_wrap">
+                                <h3>이메일</h3>
+                                <p>linkcorp@naver.com</p>
+                            </li>
+                            <li class="insta_wrap">
+                                <h3>인스타그램</h3>
+                                <p>https://www.instagram.com/linkboxcorp/</p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="section_submit">
+                        <form id="form-submit">
+                            <ul>
+                                <li class="form_list_name">
+                                    <label for="input-name">Name</label>
+                                    <input
+                                        class="input_control"
+                                        id="input-name"
+                                        type="text"
+                                        required
+                                    />
+                                </li>
+                                <li class="form_list_email">
+                                    <label for="input-email">E-mail</label>
+                                    <input
+                                        class="input_control"
+                                        id="input-email"
+                                        type="email"
+                                        required
+                                    />
+                                </li>
+                                <li class="form_list_msg">
+                                    <label for="input-msg">Message</label>
+                                    <textarea
+                                        class="input_control"
+                                        name="textarea_msg"
+                                        id="input-msg"
+                                        cols="50"
+                                        rows="10"
+                                        spellcheck="false"
+                                    ></textarea>
+                                </li>
+                            </ul>
+                            <div class="btn_wrap btn_submit_wrap">
+                                <button class="btn" type="submit">
+                                    <span>SEND</span>
+                                </button>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+
+                <div class="about_main_bottom"></div>
+            </div>
         </main>
 
         <footer>
@@ -67,5 +136,7 @@
                 <p>010-7167-9067</p>
             </div>
         </footer>
+
+        <!-- <script src="/js/contact.js"></script> -->
     </body>
 </html>
