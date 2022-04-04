@@ -2,16 +2,26 @@
     background-color: #1c1c1c;
 }
 
+#contact-main .container {
+    margin-bottom: 160px;
+}
+
 #contact-main .about_main_top {
-    overflow: hidden;
-    margin-top: 50px;
+    /* overflow: hidden; */
+    margin: 50px 0 100px;
+}
+
+#contact-main .about_main_top::after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
 /* section_contact */
 #contact-main .about_main_top .section_contact {
     float: left;
     width: 50%;
-    height: 420px;
+    height: 362px;
 }
 
 #contact-main .about_main_top .section_contact .contact_info_lists {
@@ -141,4 +151,20 @@
 
 #contact-main .about_main_top .section_submit #form-submit .btn_submit_wrap {
     margin: 0 auto;
+}
+
+/* map area */
+#contact-main .about_main_bottom {
+    width: 100%;
+    height: 436px;
+    margin-top: 200px 0 160px;
+}
+
+#contact-main .about_main_bottom .map_area {
+    width: 100%;
+}
+
+#contact-main .about_main_bottom .map_area img {
+    width: 100%;
+    height: 436px;
 }
